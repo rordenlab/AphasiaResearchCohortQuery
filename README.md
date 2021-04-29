@@ -42,3 +42,28 @@ Enter Command
 ##### Notes
 
 This is a simple Matlab script, and you are free to modify it for more sophisticated searches.
+
+##### Advanced Usage
+
+This repository also includes the optional Matlab script `modality_count` that will find create a tab-delimited text file that shows number of scans for each indvidual for each scanning modality. For example, it will create a file named `T1.tab` that looks like this:
+
+```
+ID	AgeAtInjury	VisitDaysPostInjury
+M2001	38.9 	1058
+M2002	54.4 	4006	3770	1440
+M2004	70.6 	524
+M2005	31.5 	2446	5020	4996	4334	522	3476
+```
+
+This table reveals that participant M2002 was 54 years old at injury (though be aware a little random noise is added to this value for anonymity), and visited for T1 scans at three occasions, corresponding with 4006, 3770 and 1440 days post injury.
+
+These .tab files can be converted to graphs using the `graph.py` function. It will create a bitmap graph for each scanning modality. The vertical axes shows age at injury, while the horizontal axes shows the days post injury for each scan. Individuals who were only scanned once are plotted in red, those who were scanned twice are shown in blue, and those scanned more than twice are shown in green.
+
+![ASL](ASL.png)
+![DTI](DTI.png)
+![fMRI](fMRI.png)
+![Rest](Rest.png)
+![T1](T1.png)
+![T2](T2.png)
+ 
+
