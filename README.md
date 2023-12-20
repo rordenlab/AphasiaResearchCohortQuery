@@ -1,16 +1,18 @@
+${{\color{Red}\Huge{\textsf{This repository is obsolete.}}}}\$
 
+## Please visit the [AphasiaRecoveryCohortDemo](https://github.com/neurolabusc/AphasiaRecoveryCohortDemo)
 ## About
 
-The Aphasia Research Cohort (ARC) is a large group of people with aphasia who have participated in magentic resonance imaging (MRI) studies. These individuals have also been involved in a large number of assessments during their treatment. The combination of these imaging biomarkers and behavioral measures can help identify predictors for recovery. In addition, this dataset can provide insight into the crucial brain areas for human communication. The ARC is a retrospective archive combining data from many different research studies acquired since 2006. Some individuals were only seen once, while other individuals were seen over a period of years. Different individuals were involved in different treatment studies, so the behavioral assessments and imaging modalities vary across sessions. The role of the 
-AphasiaResearchCohortQuery software (ARCquery) is to help users deal with this overwhelming variability. Each scientist can choose thier own preferred behevaioral measures and imaging biomarkers. 
+~~The Aphasia Research Cohort (ARC) is a large group of people with aphasia who have participated in magentic resonance imaging (MRI) studies. These individuals have also been involved in a large number of assessments during their treatment. The combination of these imaging biomarkers and behavioral measures can help identify predictors for recovery. In addition, this dataset can provide insight into the crucial brain areas for human communication. The ARC is a retrospective archive combining data from many different research studies acquired since 2006. Some individuals were only seen once, while other individuals were seen over a period of years. Different individuals were involved in different treatment studies, so the behavioral assessments and imaging modalities vary across sessions. The role of the 
+AphasiaResearchCohortQuery software (ARCquery) is to help users deal with this overwhelming variability. Each scientist can choose thier own preferred behevaioral measures and imaging biomarkers.~~
 
 ##### Requirements
 
-ARCquery is a Matlab script, so you must have Matlab installed.
+~~ARCquery is a Matlab script, so you must have Matlab installed.~~
 
 ##### Usage
 
-When you run 'ARCquery' from Matlab, it will show you text display that shows all the individuals who match your criteria. You can type commands to modify your criteria. For example, in the example below the user has chosen to set an `a`ge criteria to restrict the analyses to people aged from 45 to 75 years old. You can filter on many criteria including behavioral scores. Once you are happy with your selection, press the `q` key to quit, and Excel files will be generated listing all the imaging data and behavioral scores that match the chosen criteria.
+~~When you run 'ARCquery' from Matlab, it will show you text display that shows all the individuals who match your criteria. You can type commands to modify your criteria. For example, in the example below the user has chosen to set an `a`ge criteria to restrict the analyses to people aged from 45 to 75 years old. You can filter on many criteria including behavioral scores. Once you are happy with your selection, press the `q` key to quit, and Excel files will be generated listing all the imaging data and behavioral scores that match the chosen criteria.~~
 
 ```
 Participants: 193 Visits: 798 Scans: 4362
@@ -45,7 +47,7 @@ This is a simple Matlab script, and you are free to modify it for more sophistic
 
 ##### Advanced Usage
 
-This repository also includes the optional Matlab script `modality_count` that will find create a tab-delimited text file that shows number of scans for each indvidual for each scanning modality. For example, it will create a file named `T1.tab` that looks like this:
+~~This repository also includes the optional Matlab script `modality_count` that will find create a tab-delimited text file that shows number of scans for each indvidual for each scanning modality. For example, it will create a file named `T1.tab` that looks like this:~~
 
 ```
 ID	AgeAtInjury	VisitDaysPostInjury
